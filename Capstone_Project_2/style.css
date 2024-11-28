@@ -1,0 +1,110 @@
+h1{
+    color: #93329E;
+    font-family: Playwrite AU NSW, 'Times New Roman', Times, serif ;
+}
+h2{
+    color: #93329E;
+}
+h5{
+    color: #93329E;
+    font-family: Playwrite AU NSW, 'Times New Roman', Times, serif;
+}
+.first-section{
+    margin: 0;
+    padding: 0;
+    box-shadow: inset gray;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, rgb(233, 161, 173),  rgb(189, 132, 189), ivory, powderblue);
+    animation: gradient-animation 5s ease infinite;
+    background-size: 200% 200%;
+}
+@keyframes gradient-animation {
+        0%{
+            background-position: 10% 0%;
+        }
+        50%{
+            background-position: 91% 100% ;
+        }
+        100%{
+            background-position:  10% 0%;
+        }
+}
+.lead {
+    font-weight: 400;
+}
+h3{
+    color: #93329E;
+}
+
+.resume{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    opacity:  0.8;
+}
+
+.resume-text{
+    text-align: center;
+}
+.picture-container{
+    display: flex;
+    justify-content: center;
+}
+.me{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.second-section{
+   background-color: rgb(247, 243, 243);
+   box-shadow: 1px 1px white;
+}
+.project-title{
+    font-family: Playwrite AU NSW, 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 2rem;
+}
+.contact-text{
+    font-family: Playwrite AU NSW, 'Times New Roman', Times, serif ;
+    text-align: center;
+}
+
+.btn ,.btn-primary, .btn-lg{
+background-color: #93329E;
+border-color: #93329E;
+}
+.footer{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, pink,  rgb(117, 47, 117), ivory, powderblue);
+    animation: gradient-animation 5s ease infinite;
+    background-size: 200% 200%;
+    box-shadow: inset gray;
+
+}
+.about-me{
+    font-family: Playwrite AU NSW, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.digital-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.ai{
+    background-color: rgb(247, 243, 243);
+    box-shadow: 2px 2px white;
+}
+.font-color{
+    color: antiquewhite;
+}
+
